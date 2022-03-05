@@ -1,0 +1,171 @@
+{% extends 'Base.html' %}
+{% block content %}
+<div class="sidebar-menu">
+    <div class="sidebar-header">
+        <div class="logo">
+            <a href="index.html"><img src="static/assets/images/icon/logo.png" alt="logo"></a>
+        </div>
+    </div>
+    <div class="main-menu">
+        <div class="menu-inner">
+            <nav>
+                <ul class="metismenu" id="menu">
+                    <li >
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>dashboard</span></a>
+                        
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-institution"></i><span>My Agency</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-user"></i><span>Users</span></a>
+                        <ul class="collapse">
+                            <li><a href="#">User role</a></li>
+                            <li><a href="#">Users</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i><span>Staff</span></a>
+                        
+                    </li>
+                    <li class="active"> 
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-female"></i><span>FDWs</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i><span>Employers</span></a>
+                    
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-street-view"></i><span>Agents</span></a>
+                        
+                    </li>
+                    <li><a href="#"><i class="fa fa-file-pdf-o"></i> <span>Contracts</span></a></li>
+                    <li><a href="#"><i class="fa fa-file-word-o"></i> <span>Documents</span></a></li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i> <span>Invoices</span></a>
+                        <ul class="collapse">
+                            <li><a href="login.html">Invoices</a></li>
+                            <li><a href="login2.html">Drafts Invoice</a></li>
+                            <li><a href="login3.html">Invoice Settings</a></li>
+                            <li><a href="register.html">Invoice Items</a></li>
+                            <li><a href="register2.html">Credit Terms</a></li>
+                            <li><a href="register3.html">Invoice Terms Settings</a></li>
+                            <li><a href="register4.html">Invoice Notes Settings</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-power-off"></i> <span>Logout</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> 
+</div>
+<div class="main-content">
+    <!-- header area start -->
+    
+    <!-- header area end -->
+    
+<!-- page title area start -->
+
+<div class="page-title-area">
+<div class="row align-items-center">
+    <div class="col-sm-6">
+        <div class="breadcrumbs-area clearfix">
+            <h4 class="page-title pull-left">Dashboard</h4>
+            <ul class="breadcrumbs pull-left">
+                <li><a href="index.html">Home</a></li>
+                <li><span>FDWs</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-6 clearfix">
+        <div class="user-profile pull-right">
+            <img class="avatar user-thumb" src="static/assets/images/author/avatar.png" alt="avatar">
+            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Kumkum Rai <i class="fa fa-angle-down"></i></h4>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Message</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- page title area end -->
+        <!-- Progress Table start -->
+<div class="main-content-inner">
+        <div class="col-12 mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row " style="display: flex;">
+                        <div class="col-sm-12 col-md-6">
+                        <h4 class="header-title">Progress Table</h4>
+                    </div>
+                    <div class="col-sm-12 col-md-6"> 
+                        <a href="add_FDWs">
+                        <button style="float: right;" type="button" class="btn btn-flat btn-success btn-xs mb-3"><i class="fa fa-plus"></i> Add customer</button>
+                    </a>
+                    </div>
+                        
+                    </div>
+                        <div class="single-table">
+                        <div class="table-responsive">
+                            <table class="table table-hover progress-table">
+                                <thead class="text-capitalize" style="background-color: #4336fb; color: white;">
+                                    <tr>
+                                        <th scope="col">S/N</th>
+                                        <th scope="col">FDW Photo</th>
+                                        <th scope="col">Basic Details</th>
+                                        <th scope="col">Contact Details</th>
+                                        <th scope="col">Other Details </th>
+                                        <th scope="col">action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td><img src="http://dummyimage.com/68x68/000/fff"></td>
+                                        <td>
+                                            <ul>
+                                           <li> <small><strong>Name : </strong> <a href="https://www.housemaid.com.sg/agencypanel/maidmanagement/viewmaid/31lynd05">RinkuTest</a>&nbsp;<span class="label label-warning">Inactive</span></small></li>
+                                            <li><small><strong>Passport : </strong> </small></li>
+                                            <li><small><strong>FIN : </strong> </small></li>
+                                            <li><small><strong>Work Permit : </strong> </small> </li>
+                                        </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                            <li><small><strong>SG Contact : </strong> </small></li>
+                                            <li><small><strong>Email : </strong> </small></li>
+                                            <li><small><strong>Overseas Primary : </strong> </small></li>
+                                            <li><small><strong>Overseas Secondary : </strong> </small></li>
+                                        </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li><small><strong>Nationality : </strong> </small></li>
+                                                <li><small><strong>Marital Status : </strong> </small></li>
+                                                <li><small><strong>Religion : </strong> </small></li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="d-flex">
+                                                <li class="mr-3"><a href="#" class="text-success"><i class="fa fa-check-circle "></i></a></li>
+                                                <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- container div end -->
+    </div>
+    <!-- Progress Table end -->      
+</div>
+
+{% endblock %}

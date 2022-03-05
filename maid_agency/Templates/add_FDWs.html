@@ -1,0 +1,176 @@
+{% extends 'Base.html'%}
+{% block content %}
+<div class="sidebar-menu">
+    <div class="sidebar-header">
+        <div class="logo">
+            <a href="index.html"><img src="static/assets/images/icon/logo.png" alt="logo"></a>
+        </div>
+    </div>
+    <div class="main-menu">
+        <div class="menu-inner">
+            <nav>
+                <ul class="metismenu" id="menu">
+                    <li >
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>dashboard</span></a>
+                        
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-institution"></i><span>My Agency</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-user"></i><span>Users</span></a>
+                        <ul class="collapse">
+                            <li><a href="#">User role</a></li>
+                            <li><a href="#">Users</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i><span>Staff</span></a>
+                        
+                    </li>
+                    <li class="active"> 
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-female"></i><span>FDWs</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i><span>Employers</span></a>
+                    
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-street-view"></i><span>Agents</span></a>
+                        
+                    </li>
+                    <li><a href="#"><i class="fa fa-file-pdf-o"></i> <span>Contracts</span></a></li>
+                    <li><a href="#"><i class="fa fa-file-word-o"></i> <span>Documents</span></a></li>
+                    <li>
+                        <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i> <span>Invoices</span></a>
+                        <ul class="collapse">
+                            <li><a href="login.html">Invoices</a></li>
+                            <li><a href="login2.html">Drafts Invoice</a></li>
+                            <li><a href="login3.html">Invoice Settings</a></li>
+                            <li><a href="register.html">Invoice Items</a></li>
+                            <li><a href="register2.html">Credit Terms</a></li>
+                            <li><a href="register3.html">Invoice Terms Settings</a></li>
+                            <li><a href="register4.html">Invoice Notes Settings</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-power-off"></i> <span>Logout</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> 
+</div>
+<div class="main-content">
+    <!-- header area start -->
+    
+    <!-- header area end -->
+    
+<!-- page title area start -->
+
+<div class="page-title-area">
+<div class="row align-items-center">
+    <div class="col-sm-6">
+        <div class="breadcrumbs-area clearfix">
+            <h4 class="page-title pull-left">Dashboard</h4>
+            <ul class="breadcrumbs pull-left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/"> <span>FDWs</span></a></li>
+                <li><span>Add FDWs</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-6 clearfix">
+        <div class="user-profile pull-right">
+            <img class="avatar user-thumb" src="static/assets/images/author/avatar.png" alt="avatar">
+            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Kumkum Rai <i class="fa fa-angle-down"></i></h4>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Message</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Log Out</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="col-12">
+    <div class="card mt-5">
+        <div class="card-body">
+            <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h4 class="header-title">Add New Maid</h4>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p style="color: red; float: right;">Fields marked with asterisk (*) are required</p>
+                </div>
+            </div>
+                <form class="needs-validation" novalidate="">
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">Maid Name</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required="">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-sm-3 ">
+                            <label for="example-date-input">Date</label>
+                            <input class="form-control" type="date" value="2018-03-05" id="example-date-input">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required="">
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="City" required="">
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">State</label>
+                        <input type="text" class="form-control" id="validationCustom04" placeholder="State" required="">
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required="">
+                        <div class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                        <label class="form-check-label" for="invalidCheck">
+                            Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
