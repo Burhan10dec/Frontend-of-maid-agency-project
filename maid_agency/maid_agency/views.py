@@ -2,21 +2,21 @@ from django.shortcuts import render
 
 
 def index(request):
+    return render(request,'dashboard.html')
+
+def FDWs(request):
     return render(request,'FDWs.html')
 
 def myagency(request):
-    return render(request,'myagency.html')
+    return render(request,'My_agency.html')
 
 def myagencyedit(request):
-    return render(request,'myagencyedit.html')
+    return render(request,'Edit_My_agency.html')
 
 
-# def add_FDWs(request):
-#     return render(request,'add_FDWs.html')
-
-
-def FDWs(request):
+def add_FDWs(request):
     return render(request,'add_FDWs.html')
+
 
 
 def FDWs_profile(request):
