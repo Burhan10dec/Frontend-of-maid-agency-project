@@ -1,0 +1,1236 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="/static/assets/images/icon/favicon.ico">
+        <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/assets/css/themify-icons.css">
+        <link rel="stylesheet" href="/static/assets/css/metisMenu.css">
+        <link rel="stylesheet" href="/static/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/static/assets/css/slicknav.min.css">
+        <!-- amchart css -->
+        <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+        <!-- others css -->
+        <link rel="stylesheet" href="/static/assets/css/typography.css">
+        <link rel="stylesheet" href="/static/assets/css/default-css.css">
+        <link rel="stylesheet" href="/static/assets/css/styles.css">
+        <link rel="stylesheet" href="/static/assets/css/responsive.css">
+        <!-- modernizr css -->
+        <script src="/static/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    
+
+<body>
+
+    
+
+    <!-- page container area start -->
+    <div class="page-container">
+        <!-- sidebar menu area start -->
+        <div class="sidebar-menu">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span><h3 class="light">EazyMaid
+                    </span></h3>
+                </div>
+            </div>
+            <div class="main-menu">
+                <div class="menu-inner">
+                    <nav>
+                        <ul class="metismenu" id="menu">
+                            
+
+                            <li class=""><a href="index.html"><i class="ti-dashboard"></i> <span>Dashboard</span></a></li>
+
+                            <li class="active"><a href="myagency.html"><i class="ti-home"></i> <span>My Agency</span></a></li>
+
+
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-user"></i><span>Users
+                                    </span></a>
+                                <ul class="collapse">
+                                    <li><a href="index.html">User Roles</a></li>
+                                    <li><a href="index3-horizontalmenu.html">Users</a></li>
+                                </ul>
+                            </li>
+
+                            <li ><a href="index.html"><i class="ti-home"></i> <span>Staff</span></a></li>
+
+                            <li ><a href="fdw.html"><i class="ti-id-badge"></i> <span>FDWs</span></a></li>
+
+                            <li ><a href="index.html"><i class="fa fa-users"></i> <span>Employers</span></a></li>
+
+                            <li ><a href="index.html"><i class="ti-user"></i> <span>Agents</span></a></li>
+
+                            <li ><a href="index.html"><i class="ti-pencil-alt"></i> <span>Contracts</span></a></li>
+
+                            <li ><a href="index.html"><i class="ti-agenda"></i> <span>Documents</span></a></li>
+
+                            
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-write"></i><span>Invoices</span></a>
+                                <ul class="collapse">
+                                    <li><a href=#">Invoices</a></li>
+                                    <li><a href="#">Draft Invoices</a></li>
+                                    <li><a href="#">Invoice Settings</a></li>
+                                    <li><a href="#">Invoice Items</a></li>
+                                    <li><a href="#">Credit Terms</a></li>
+                                    <li><a href="#">Invoice Term Settings</a></li>
+                                    <li><a href="#">Invoice Notes Settings</a></li>
+                                </ul>
+                            </li>
+
+
+
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-write"></i><span>Credit Notes</span></a>
+                                <ul class="collapse">
+                                    <li><a href="#">Credit Notes</a></li>
+                                    <li><a href="#">Draft Credit Notes</a></li>
+                                    <li><a href="#">Credit Notes Settings</a></li>
+                                    
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-credit-card"></i><span>Payments</span></a>
+                                <ul class="collapse">
+                                    <li><a href="#">Payments</a></li>
+                                    <li><a href="#">Payment Settings</a></li>
+                                    <li><a href="#">Payment Modes</a></li>
+                                    
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-credit-card"></i><span>Expenses</span></a>
+                                <ul class="collapse">
+                                    <li><a href="#">Expenses</a></li>
+                                    <li><a href="#">Expenses Category</a></li>                                  
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-time"></i><span>Leaves</span></a>
+                                <ul class="collapse">
+                                    <li><a href="#">Leaves</a></li>
+                                    <li><a href="#">Leave Settings</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-stats-up"></i>
+                                    <span>Reports</span></a>
+                                <ul class="collapse">
+                                    <li><a href="#">Invoice</a></li>
+                                    <li><a href="#">Payments</a></li>
+                                    <li><a href="#">Expenses</a></li>
+                                    <li><a href="#">Creditnote</a></li>         
+                                </ul>
+                            </li>
+
+
+                            <li><a href="maps.html"><i class="ti-shopping-cart"></i> <span>My Subscriptions</span></a></li>
+
+                            
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-email"></i> <span>View Enquiries</span></a>
+                                <ul class="collapse">
+                                    <li><a href="login.html">Request Maid</a></li>
+                                    <li><a href="login2.html">Contact Agency</a></li>
+                                    <li><a href="login3.html">Website Enquiries</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="maps.html"><i class="ti-ticket"></i> <span>Submit Ticket</span></a></li>
+
+                            <li><a href="maps.html"><i class="ti-power-off"></i> <span>Logout</span></a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar menu area end -->
+        <!-- main content area start -->
+        <div class="main-content">
+
+            <!-- header area start -->
+
+            
+
+
+            <div class="header-area">
+                <div class="row align-items-center">
+                    <!-- nav and search button -->
+                    <div class="col-md-6 col-sm-8 clearfix">
+                        <div class="nav-btn pull-left">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    
+                    </div>
+                    <!-- profile info -->
+                    <div class="col-md-6 col-sm-4 clearfix">
+                        <ul class="notification-area pull-right">
+                            <li id="full-view"><i class="ti-fullscreen"></i></li>
+                            <li id="full-view-exit"><i class="ti-zoom-out"></i></li>
+                            
+                            <li class="settings-btn">
+                                <i class="ti-settings"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- header area end -->
+            
+            <!-- page title area start -->
+            <div class="page-title-area">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mt-3 mb-3">
+                        <div class="breadcrumbs-area clearfix">
+                            <h5 class="page-title pull-left">My Agency</h5>
+                            <ul class="breadcrumbs pull-left">
+                                <li><a href="index.html">Dashboard</a></li>
+                                <li><span>My Agency</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- page title area end -->
+
+            <!-- My Agency Table start -->
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="header-title">My Agency</h4>
+                        <div class="single-table">
+                            <div class="table-responsive">
+                                <table class="table  progress-table text-center">
+                                    <thead class="text-uppercase" style="background-color: #4336fb; color: white">
+                                        <tr>
+                                            <th colspan="4"><h4>SHREE NAKODA EMPLOYMENT AGENCY</h4></th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td rowspan="4"> <img src="http://dummyimage.com/120x120/000/fff"></td>
+                                            <td>LICENCE#</td>
+                                            <td>18C9202</td>
+                                                
+                                        </tr>
+
+                                        <tr>
+                                            <td>UEN#</td>
+                                            <td> 53380603L </td>
+                                           
+                                        </tr>
+
+                                        <tr>                                           
+                                            <td>GST REG#</td>
+                                            <td>...</td>
+                                        </tr>
+                                        
+                                        <tr>
+
+                                            <td>SUB-DOMAIN URL</td>
+                                            <td>...</td>
+                                            
+                                           
+                                        </tr>
+
+                                        <tr>
+                                            <td rowspan="2">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li class="mr-3"><a href="myagencyedit.html"><button type="button" class="btn btn-primary btn-sm mb-3"><i class="fa fa-edit"></i> &nbsp;Edit Logo</button></a></li>
+                                                    
+                                                </ul>
+                                            </td>                                          
+                                            <td>MAIN WEBSITE</td>
+                                            <td>...</td>                                   
+                                        </tr>
+
+                                        <tr>                                           
+                                            <td>FISCAL YEAR</td>
+                                            <td>January - December</td> 
+                                            <td rowspan="6">
+                                                <ul class="d-flex justify-content-center">
+                                                    
+                                                    <li class="mr-3"> <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#editagency"><i class="fa fa-edit"></i></button></li>
+                                                     <!-- Edit Agency Modal -->
+                                                     <div class="modal fade" id="editagency">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title">Edit</h5>
+                                                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <!--Modal Table Start-->
+                                                                    <div class="single-table">
+                                                                        <div class="table-responsive">
+                                                                            <table class="table table-bordered text-center">
+                                                                                <thead class="text-uppercase">
+                                                                                
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        
+                                                                                        <td>AGENCY NAME</td>
+                                                                                        <td>SHREE NAKODA EMPLOYMENT AGENCY</td>
+                                                                                    
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        
+                                                                                        <td>Licence#</td>
+                                                                                        <td>18C9202</td>
+                                                                                        
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                    
+                                                                                        <td>UEN#</td>
+                                                                                        <td>53380603L</td>
+                                                                                        
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        
+                                                                                        <td>Sub-domain URL                                                                                      </td>
+                                                                                        <td>To update Sub-domain URL, please contact eazyMaid Administrator</td>
+                                                                                        
+                                                                                    </tr>
+                    
+                                                                                    <tr>
+                                                                                        
+                                                                                        <td>Main Website </td>
+                                                                                        <td>To update website URL, please contact eazyMaid Administrator</td>
+                                                                                        
+                                                                                    </tr>
+                                                                                   
+                    
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                </div>
+                                                                <!--Modal Table End-->
+                                                                <!--Modal Form Start-->
+                                                                <form>
+                                                                    <div class="form-group mt-2">
+                                                                        <label for="GST">
+                                                                            GST REG#</label>
+                                                                        <input type="text" class="form-control" id="GST" aria-describedby="" placeholder="...">
+                                                                       
+                                                                    </div>
+
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputPassword1">Fiscal Year Settings</label>
+                                                                    </div>
+
+                                                                    <button class="btn btn-md dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</button>
+                                                                    <div class="dropdown-menu ">
+                                                                        <a class="dropdown-item" href="#">Monday</a>
+                                                                        <a class="dropdown-item" href="#">Tuesday</a>
+                                                                        <a class="dropdown-item" href="#">Wednesday</a>
+                                                                        <a class="dropdown-item" href="#">Thursday</a>
+                                                                        <a class="dropdown-item" href="#">Friday</a>
+                                                                        <a class="dropdown-item" href="#">Saturday</a>
+                                                                        <a class="dropdown-item" href="#">Sunday</a>
+                                                                    </div>
+
+                                                                    <button class="btn btn-md dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</button>
+                                                                    <div class="dropdown-menu">
+                                                                        <a class="dropdown-item" href="#">Monday</a>
+                                                                        <a class="dropdown-item" href="#">Tuesday</a>
+                                                                        <a class="dropdown-item" href="#">Wednesday</a>
+                                                                        <a class="dropdown-item" href="#">Thursday</a>
+                                                                        <a class="dropdown-item" href="#">Friday</a>
+                                                                        <a class="dropdown-item" href="#">Saturday</a>
+                                                                        <a class="dropdown-item" href="#">Sunday</a>
+                                                                    </div>
+
+                                                                </form>
+                                                                <!--Modal Form End-->
+                                                                <button type="submit" class="btn btn-success mt-4 ">Submit</button>
+
+                                                            </div>
+                                                        </div>
+                                                        <!-- Edit Agency Modal End -->
+                                                    </div>
+                                                </ul>
+                                            </td>
+                                        </tr>                   
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- My Agency Table end -->
+
+
+            <!-- Info tabs start -->
+            <div class="col-lg-12 mt-5 mb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">Profile</a>
+                                <a class="nav-item nav-link" id="nav-address-tab" data-toggle="tab" href="#nav-address" role="tab" aria-controls="nav-address" aria-selected="false">Address</a>
+                                <a class="nav-item nav-link" id="nav-branches-tab" data-toggle="tab" href="#nav-branches" role="tab" aria-controls="nav-branches" aria-selected="false">Branches</a>
+                                <a class="nav-item nav-link" id="nav-office-tab" data-toggle="tab" href="#nav-office" role="tab" aria-controls="nav-office" aria-selected="false">Office Hours</a>
+                                <a class="nav-item nav-link" id="nav-accreditation-tab" data-toggle="tab" href="#nav-accreditation" role="tab" aria-controls="nav-accreditation" aria-selected="false">Accreditation</a>
+                                <a class="nav-item nav-link" id="nav-awards-tab" data-toggle="tab" href="#nav-awards" role="tab" aria-controls="nav-awards" aria-selected="false">Awards</a>
+                                <a class="nav-item nav-link" id="nav-social-tab" data-toggle="tab" href="#nav-social" role="tab" aria-controls="nav-social" aria-selected="false">Social Media</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content mt-3 mb-3" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="d-flex justify-content-end">
+                                    <h4 class="header-title text-primary"> <td><button type="button" class="btn btn-primary btn-sm mb-3"><i class="fa fa-edit"></i></button></td></h4>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <p>No records...</p>
+                                </div>
+                                
+                            </div>
+
+
+                            <div class="tab-pane fade" id="nav-address" role="tabpanel" aria-labelledby="nav-address-tab">
+                                <!-- Bordered Table start -->
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="card">
+                                            <div class="card-body">
+
+
+                                                <!-- Button trigger modal -->
+                                                <div class="d-flex justify-content-end">
+                                                    <button type="button" class="btn btn-primary btn-sm mb-3" data-toggle="modal" data-target="#agencyEditAddress"> <i class="fa fa-edit"></i></button>
+                                                </div>
+                                                
+                                                <!-- Modal start -->
+                                                <div class="modal fade" id="agencyEditAddress">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title">Edit Address</h5>
+                                                                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <form>
+                                                                    <div class="form-group">
+                                                                        <label >Agency Name</label>
+                                                                        <p  class="form-text text-muted">SHREE NAKODA EMPLOYMENT AGENCY</p>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="agencyAddress">Address</label>
+                                                                        <input type="text" class="form-control" id="agencyAddress"  placeholder="03-20, blk 200A Sengkang East Road ">
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="agencyContactPerson"> Contact Person </label>
+                                                                        <input type="text" class="form-control" id="agencyContactPerson" placeholder="Neha Lunia">
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="agencyTelephone"> Telephone</label>
+                                                                        <input type="text" class="form-control" id="agencyTelephone" placeholder="87861169">
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="agencyMobile">Mobile</label>
+                                                                        <input type="text" class="form-control" id="agencyMobile" placeholder="">
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="agencyFax">Fax</label>
+                                                                        <input type="text" class="form-control" id="agencyFax" placeholder="">
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="agencyEmail">Email</label>
+                                                                        <input type="email" class="form-control" id="agencyEmail"  placeholder="shreenakoda.ea@gmail.com">
+                                                                    
+                                                                    </div>
+                                                                    <button type="submit" class="btn btn-success mt-3 pr-4 pl-4">Save Data</button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Modal end -->
+
+
+
+                                                <div class="single-table">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered text-center">
+                                                            <thead class="text-uppercase">
+                                                            
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    
+                                                                    <td>AGENCY NAME</td>
+                                                                    <td>SHREE NAKODA EMPLOYMENT AGENCY</td>
+                                                                
+                                                                </tr>
+                                                                <tr>
+                                                                    
+                                                                    <td>ADDRESS</td>
+                                                                    <td>03-20, blk 200A Sengkang East Road</td>
+                                                                    
+                                                                </tr>
+                                                                <tr>
+                                                                
+                                                                    <td>CONTACT PERSON</td>
+                                                                    <td>Neha Lunia</td>
+                                                                    
+                                                                </tr>
+                                                                <tr>
+                                                                    
+                                                                    <td>TELEPHONE</td>
+                                                                    <td>87861169</td>
+                                                                    
+                                                                </tr>
+
+                                                                <tr>
+                                                                    
+                                                                    <td>MOBILE NUMBER</td>
+                                                                    <td>...</td>
+                                                                    
+                                                                </tr>
+                                                                <tr>
+                                                                    
+                                                                    <td>FAX</td>
+                                                                    <td>...</td>
+                                                                    
+                                                                </tr>
+                                                                <tr>
+                                                                    
+                                                                    <td>EMAIL</td>
+                                                                    <td>shreenakoda.ea@gmail.com</td>
+                                                                 
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Bordered Table end -->
+                            </div>
+
+
+                            <div class="tab-pane fade" id="nav-branches" role="tabpanel" aria-labelledby="nav-branches-tab">
+                                <!-- Bordered Table start -->
+                                <div class="col-lg-12 mt-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                           <!-- Button trigger modal -->
+
+                                            <div class="d-flex justify-content-end">
+                                                <button type="button" class="btn btn-success btn-sm mb-3" data-toggle="modal" data-target="#agencyEditBranches"><i class="fa fa-plus-square"></i> &nbsp;ADD BRANCH</button>
+                                            </div>
+
+                                            <!-- Modal start -->
+                                            <div class="modal fade" id="agencyEditBranches">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title">Edit Branches</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form>
+                                                                <div class="form-group">
+                                                                    <label  for="agencyBranchName">Branch Name</label>
+                                                                    <input type="text" class="form-control" id="agencyBranchName" placeholder="Neha Lunia">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="agencyAddress">Address</label>
+                                                                    <input type="text" class="form-control" id="agencyAddress"  placeholder=" ">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="agencyContactPerson"> Contact Person </label>
+                                                                    <input type="text" class="form-control" id="agencyContactPerson" placeholder=" ">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="agencyTelephone"> Telephone</label>
+                                                                    <input type="text" class="form-control" id="agencyTelephone" placeholder="">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="agencyMobile">Mobile</label>
+                                                                    <input type="text" class="form-control" id="agencyMobile" placeholder="">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="agencyFax">Fax</label>
+                                                                    <input type="text" class="form-control" id="agencyFax" placeholder="">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="agencyEmail">Email</label>
+                                                                    <input type="email" class="form-control" id="agencyEmail"  placeholder="">
+                                                                
+                                                                </div>
+                                                                <button type="submit" class="btn btn-success mt-3 pr-4 pl-4">Save Data</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Modal end -->
+
+
+                                            <div class="single-table">
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover table-bordered text-center">
+                                                        <thead class="text-uppercase">
+                                                            <tr>
+                                                                <th scope="col">S/N</th>
+                                                                <th scope="col">BRANCH NAME</th>
+                                                                <th scope="col">ADDRESS</th>
+                                                                <th scope="col">CONTACT PERSON</th>
+                                                                <th scope="col">TELEPHONE</th>
+                                                                <th scope="col">MOBILE NO.</th>
+                                                                <th scope="col">FAX</th>
+                                                                <th scope="col">EMAIL</th>
+                                                                <th scope="col">ORDER</th>
+                                                                <th scope="col">ACTIONS</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th colspan="10">No Records</th>
+                                                                
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- Bordered Table end -->
+                            </div>
+
+
+                            <div class="tab-pane fade" id="nav-office" role="tabpanel" aria-labelledby="nav-office-tab">
+                                <!-- Bordered Table start -->
+                                <div class="row">
+                                <div class="col-lg-12 mt-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <!-- Button trigger modal -->
+                                            <div class="d-flex justify-content-end">
+                                                <button type="button" class="btn btn-primary btn-sm mb-3" data-toggle="modal" data-target="#agencyOfficeHours"><i class="fa fa-edit"></i> &nbsp;ADD/EDIT</button>
+                                            </div>
+
+                                             <!-- basic modal start -->
+                                            
+                                           
+                                            <!-- Modal -->
+                                                <div class="modal fade" id="agencyOfficeHours">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title">Edit Main Branch Office Hours</h5>
+                                                                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <!--Time Forms-->
+                                                                
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName"> Branch Name</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <input type="text" class="form-control" id="agencyOfficeBranchName" placeholder="">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Monday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Tuesday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Wednesday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Thursday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Friday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Saturday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Sunday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Public Holiday</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeBranchName">Lunch Time</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <div class="row">
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                            <div class="col-sm-6 my-1">
+                                                                                                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                                                                                            </div>
+                                                                                         </div>    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                            <form>
+                                                                                <div class="form-row align-items-center">
+                                                                                    <div class="col-sm-4 my-1">
+                                                                                        <label for="agencyOfficeNotes">Notes</label>
+                                                                                    </div>
+                                                                                    <div class="col-sm-8 my-1">
+                                                                                        <input type="text" class="form-control" id="agencyOfficeNotes" placeholder="">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+
+                                                                       
+                                                                <!--Time Forms-->
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-success">Save Data</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                    
+                                            <!-- basic modal end -->
+
+
+                                            <h4 class="header-title">MAIN BRANCH</h4>
+                                            <div class="single-table">
+                                                <div class="table-responsive">
+                                                    <table class="table table-bordered text-center">
+                                                        
+                                                        <tbody>
+                                                            <tr>
+                                                              
+                                                                <td>Monday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                             
+                                                                <td>Tuesday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                
+                                                                <td>Wednesday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                               
+                                                                <td>Thursday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Friday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                               
+                                                                <td>Saturday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                
+                                                                <td>Sunday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                
+                                                                <td>Public Holiday</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                
+                                                                <td>Lunch Time</td>
+                                                                <td>N/A - N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Notes</td>
+                                                                <td>N/A </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <!-- Bordered Table start -->
+                            </div>
+
+
+                            <div class="tab-pane fade" id="nav-accreditation" role="tabpanel" aria-labelledby="nav-accreditation-tab">
+                               <!-- Bordered Table start -->
+                                <div class="col-lg-12 mt-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-end">
+                                                  <!-- Button trigger modal -->
+                                                  <button type="button" class="btn btn-primary btn-sm mt-3" data-toggle="modal" data-target="#agencyAccreditation"><i class="fa fa-plus-square"></i> &nbsp;ADD</button>
+                                            </div>
+
+                                            <!-- basic modal start -->
+                                            
+                                                        <!-- Modal -->
+                                                        <div class="modal fade" id="agencyAccreditation">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Add Accreditation</h5>
+                                                                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <form>
+                                                                            <div class="form-group">
+                                                                                <label for="agencyAccreditationName">Name of Accreditation</label>
+                                                                                <input type="email" class="form-control" id="agencyAccreditationName" aria-describedby="emailHelp" placeholder="">
+                                                                                
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="">Logo</label>
+                                                                                <div class="custom-file">
+                                                                                    <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                                                                    <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                             
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-success">Save Data</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                               
+                                            <!-- basic modal end -->
+
+
+                                            <div class="single-table mt-3">
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover table-bordered text-center">
+                                                        <thead class="text-uppercase">
+                                                            <tr>
+                                                                <th scope="col">S/N</th>
+                                                                <th scope="col">NAME OF THE ACCREDITATION</th>
+                                                                <th scope="col">LOGO</th>
+                                                                <th scope="col">ORDER</th>
+                                                                <th scope="col">ACTIONS</th>
+                                                                
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th colspan="10">No Records</th>
+                                                                
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- Bordered Table end -->
+                            </div>
+                            <div class="tab-pane fade" id="nav-awards" role="tabpanel" aria-labelledby="nav-awards-tab">
+                                <!-- Bordered Table start -->
+                                <div class="col-lg-12 mt-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-end">
+                                                 <!-- Button trigger modal -->
+                                                 <button type="button" class="btn btn-primary btn-sm mt-3" data-toggle="modal" data-target="#agencyAwards"><i class="fa fa-plus-square"></i> &nbsp;ADD</button>
+                                            </div>
+
+                                            <!-- basic modal start -->
+                                            
+                                                   
+                                                        <!-- Modal -->
+                                                        <div class="modal fade" id="agencyAwards">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Add Award</h5>
+                                                                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <form>
+                                                                            <div class="form-group">
+                                                                                <label for="agencyAccreditationName">Name of Award</label>
+                                                                                <input type="text" class="form-control" id="agencyAwardName"  placeholder="">
+                                                                                
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="">Logo</label>
+                                                                                <div class="custom-file">
+                                                                                    <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                                                                    <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                                                                                </div>
+                                                                                
+                                                                            </div>
+                                                                            
+                                                                            
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-success">Save Data</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                               
+                                            <!-- basic modal end -->
+
+
+                                            <div class="single-table mt-2">
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover table-bordered text-center">
+                                                        <thead class="text-uppercase">
+                                                            <tr>
+                                                                <th scope="col">S/N</th>
+                                                                <th scope="col">NAME OF THE AWARD</th>
+                                                                <th scope="col">LOGO</th>
+                                                                <th scope="col">ORDER</th>
+                                                                <th scope="col">ACTIONS</th>
+                                                                
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th colspan="10">No Records</th>
+                                                                
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- Bordered Table end -->
+                            </div>
+                            <div class="tab-pane fade" id="nav-social" role="tabpanel" aria-labelledby="nav-social-tab">
+                                <!-- Bordered Table start -->
+                                
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-end">
+                                                    <button type="button" class="btn btn-primary btn-sm mb-3" data-toggle="modal" data-target="#agencyEditSocials"> <i class="fa fa-edit"></i> &nbsp;EDIT</button>
+                                                </div>
+
+                                                <!-- basic modal start -->
+                                            
+                                                        <!-- Modal -->
+                                                        <div class="modal fade" id="agencyEditSocials">
+                                                            <div class="modal-dialog">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title">Edit Social Media</h5>
+                                                                        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                                    </div>
+                                                                    <div class="modal-body">
+                                                                        <form>
+                                                                            <div class="form-group">
+                                                                                <label for="agencySocialLink1">Facebook Link  </label>
+                                                                                <input type="text" class="form-control" id="agencyAwardName"  placeholder="">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="agencySocialLink2">Twitter Link</label>
+                                                                                <input type="text" class="form-control" id="agencyAwardName"  placeholder="">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="agencySocialLink3">Google Plus Link</label>
+                                                                                <input type="text" class="form-control" id="agencyAwardName"  placeholder="">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="agencySocialLink4">LinkedIn Link</label>
+                                                                                <input type="text" class="form-control" id="agencyAwardName"  placeholder="">
+                                                                            </div>
+                                                                            
+                                                                        </form>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-success">Save Data</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                               
+                                            <!-- basic modal end -->
+
+
+                                                <h4 class="header-title">SOCIAL LINKS</h4>
+                                                <div class="single-table">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-bordered text-center">
+                                                            
+                                                            <tbody>
+                                                                <tr>
+                                                                  
+                                                                    <td><i class="fa fa-facebook-f"></i></td>
+                                                                    <td>N/A </td>
+                                                                </tr>
+                                                                <tr>
+                                                                 
+                                                                    <td><i class="fa fa-twitter"></i></td>
+                                                                    <td>N/A </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    
+                                                                    <td><i class="fa fa-google-plus"></i></td>
+                                                                    <td>N/A </td>
+                                                                </tr>
+                                                                <tr>
+                                                                   
+                                                                    <td><i class="fa fa-linkedin"></i></td>
+                                                                    <td>N/A </td>
+                                                                </tr>
+    
+                                                               
+    
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Bordered Table End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Info tabs end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <footer class="main-footer text-right">  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- jquery latest version -->
+   <script src="/static/assets/js/vendor/jquery-2.2.4.min.js"></script>
+   <!-- bootstrap 4 js -->
+   <script src="/static/assets/js/popper.min.js"></script>
+   <script src="/static/assets/js/bootstrap.min.js"></script>
+   <script src="/static/assets/js/owl.carousel.min.js"></script>
+   <script src="/static/assets/js/metisMenu.min.js"></script>
+   <script src="/static/assets/js/jquery.slimscroll.min.js"></script>
+   <script src="/static/assets/js/jquery.slicknav.min.js"></script>
+
+   <!-- start chart js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+   <!-- start highcharts js -->
+   <script src="https://code.highcharts.com/highcharts.js"></script>
+   <!-- start zingchart js -->
+   <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+   <script>
+   zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+   ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+   </script>
+   <!-- all line chart activation -->
+   <script src="/static/assets/js/line-chart.js"></script>
+   <!-- all pie chart -->
+   <script src="/static/assets/js/pie-chart.js"></script>
+   <!-- others plugins -->
+   <script src="/static/assets/js/plugins.js"></script>
+   <script src="/static/assets/js/scripts.js"></script>
+</body>
+
+</html>
+

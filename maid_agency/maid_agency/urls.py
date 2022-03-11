@@ -19,6 +19,10 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('add_FDWs', views.add_FDWs),
+    # path('add_FDWs', views.add_FDWs),
+    path('FDWs', views.FDWs),
+    path('FDWs_profile', views.FDWs_profile),
+    path('myagency', views.myagency),
+    path('myagencyedit', views.myagencyedit),
 
 ]

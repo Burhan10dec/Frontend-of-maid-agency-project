@@ -1,0 +1,502 @@
+{% extends 'Base.html'%}
+{% load static %}
+{% block content %}
+{% include 'side_bar.html' %}
+{% include 'navbar_1.html' %}
+<div class="page-title-area">
+    <div class="row align-items-center">
+        <div class="col-sm-6">
+            <div class="breadcrumbs-area clearfix">
+                <h4 class="page-title pull-left">Dashboard</h4>
+                <ul class="breadcrumbs pull-left">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/"> FDWs</a></span></li>
+                    <li><span>RinkuTest</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 clearfix">
+            <div class="user-profile pull-right">
+                <img class="avatar user-thumb" src="/static/assets/images/author/avatar.png" alt="avatar">
+                <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Kumkum Rai <i class="fa fa-angle-down"></i></h4>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Message</a>
+                    <a class="dropdown-item" href="#">Settings</a>
+                    <a class="dropdown-item" href="#">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+<div class="main-content-container">
+    <div class="col-12">
+        <div class="card mt-5">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h3 class="header-title">RinkuTest</h3>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 " >
+                        <button class="btn btn-secondary  btn-xs mb-1" style="float: right;" type="submit"><i class="fa fa-arrow-left mr-1"></i> Back</button>
+                        <button class="btn btn-secondary mr-1 btn-xs mb-1 " style="float: right;" type="submit"><i class="fa fa-edit mr-1"></i> Edit</button>                        
+                    </div>
+                    
+                </div>
+                <hr>
+                    <form class="needs-validation" novalidate="">
+                    <div class="row">
+                        <!-- column 1 start  -->
+                        <div class="col-3">
+                            
+                            <img src="/static/assets/images/rinkutest_913287111.jpg" class="img-thumbnail" >
+                            
+                        </div>
+                        <!-- cloumn 2 start  -->
+                        <div class="col">
+                            
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">Maid name</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;">RinkuTest</dd>                            
+                            </dl>
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">NATIONALITY</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;">Indian</dd>                            
+                            </dl>
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">HEIGHT(IN CM)</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">EDUCATION</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">NUMBER OF CHILDREN</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">NUMBER OF SIBLINGS</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">SPOKEN LANGUAGE</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;">Hindi 
+                                    punjabi
+                                </dd>                            
+                            </dl>
+
+                        </div>
+                        
+            <!-- column 2 end  -->
+                        <!-- column 3 start  -->
+                        <div class="col">
+
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">TYPE OF MAID</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;">Experienced Maid</dd>                            
+                            </dl>
+
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">RELIGION</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;">Hinduism</dd>                            
+                            </dl>
+                            
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">WEIGHT (IN KG)</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;">55</dd>                            
+                            </dl>
+
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">MARITAL STATUS</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">AGES OF CHILDREN</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">PLACE OF BIRTH</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+
+                            <dl class="dl-horizontal row rowleft">
+                                <dt class="col-sm-3">AGENT NAME</dt>
+                                <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                            </dl>
+                            
+                        </div>
+                    </div>
+                    
+                     <!-- left align tab start -->
+                     <div class="col mt-1">
+                        <div class="card" >
+                            <div class="card-body" >
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#immigration" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-exclamation-circle"></i> Immigration</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#home_country" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-home"></i> Home Country</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#medical" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-plus-square"></i> Medical</a>                                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#rest_day" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-bed"></i> Rest Days</a>                                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#willingness" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-star"></i> Willingness</a>                                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#documents" role="tab" aria-controls="contact" aria-selected="false"><i class="fa fa-file"></i> Documents</a>                                        
+                                    </li>
+                                </ul>
+                                <div class="tab-content mt-3" id="myTabContent" >
+                                    <div class="tab-pane fade show active"  id="immigration" role="tabpanel" aria-labelledby="home-tab">
+                                        {% include 'fdws/immigration.html' %}
+                                        <!-- <div class="row"> -->
+                                            <!-- button to triger edit modal -->
+                                            <!-- <button type="button" class="btn btn-secondary btn-flat btn-xs" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-edit"></i> Edit</button> -->
+                                            <!-- Modal for Immigration -->
+                                            <!-- <div class="modal fade" id="exampleModalCenter">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title">Modal title</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates explicabo natus nobis, aperiam placeat aliquid nisi ut exercitationem dolor quisquam nam tempora voluptatem. Unde dignissimos est aliquid quidem porro dolorum ipsam suscipit animi quas, debitis ea, sunt quo distinctio doloribus eveniet dolores tempore delectus voluptatum! Possimus earum asperiores animi.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                        </div> -->
+                                        <div class="row" >
+                                            
+                                            <div class="col" >
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">PASSPORT NO</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"> 56487123 </dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">PASSPORT EXPIRY DATE</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">MALAYSIAN ID TYPE</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">FIN NO</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">IMMIGRATION PASS TYPE</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i></dd> -->                                                    
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                            </div>
+                                            
+                                            
+                                            <div class="col border-left-0">
+                                            
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">SVP / SPECIAL PASS EXPIRY DATE</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">WORK PERMIT NO</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">WORK PERMIT EXPIRY DATE</dt>
+                                                    <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="home_country" role="tabpanel" aria-labelledby="profile-tab">                                        
+                                        {% include 'fdws/home_country.html' %}
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">RESIDENTIAL ADDRESS IN HOME COUNTRY</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">NAME OF PORT / AIRPORT TO BE REPATRIATED TO</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">HOME COUNTRY</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">CONTACT PERSON IN HOME COUNTRY</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">CONTACT NUMBER IN HOME COUNTRY</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i></dd>                                             -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">SECONDARY CONTACT NUMBER IN HOME COUNTRY</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i></dd>                                             -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">E-MAIL ID</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i></dd>                                             -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>                                                                                    
+                                    </div>
+                                
+                                    <div class="tab-pane fade" id="medical" role="tabpanel" aria-labelledby="contact-tab">
+                                        {% include 'fdws/Edit_medical.html' %}
+                                        <div class="row">
+                                           <div class="col">
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">MENTAL ILLNESS</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">EPILEPSY</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">ASTHMA</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">DIABETES</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">HYPERRTENSION</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">TUBERCULOSIS</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                            </div>
+
+                                            <div class="col">
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">HEART DISEASE</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">MALAIA</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">OPERATIONS</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">OTHERS</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">ALLERGIES(IF ANY)</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-4">PHYSICAL DISABILITIES</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                            </div>
+
+                                            <div class="col">
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-5">DIETARY RESTRICTIONS</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                <dl class="dl-horizontal row rowleft">
+                                                    <dt class="col-sm-5">FOOD HANDLING PREFERENCES</dt>                                                                                
+                                                    <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                                </dl>
+                                                
+                                            </div>
+                                            
+                                        </div>                                        
+                                    </div>
+                                    <!-- rest day  -->
+                                    <div class="tab-pane fade" id="rest_day" role="tabpanel" aria-labelledby="profile-tab">                                        
+                                        {% include 'fdws/Edit_rest_days.html' %}
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">PREFERRED NO. OF REST DAYS / MONTH</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">WILLING TO WORK ON OFF-DAYS</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">CURRENT SALARY</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">EXPECTED SALARY</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ANY OTHER REMARKS</dt>                                            
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        
+                                        
+                                    </div>
+                                <!-- Willingness -->
+                                    <div class="tab-pane fade" id="willingness" role="tabpanel" aria-labelledby="profile-tab">                                        
+                                        {% include 'fdws/Edit_willingness.html' %}
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ABLE TO HANDLE PORK</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ABLE TO EAT PORK</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ABLE TO HANDLE BEEF</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ABLE TO EAT BEEF</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i> </dd> -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ABLE TO CARE FOR PETS</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i></dd>                                             -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ABLE TO WASH CAR</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i></dd>                                             -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>
+                                        <dl class="dl-horizontal row rowleft">
+                                            <dt class="col-sm-4">ABLE TO DO GARDENING WORKS</dt>
+                                            <!-- <dd class="col-sm-1"> <i class="fa fa-forward"></i></dd>                                             -->
+                                            <dd class="col-sm-3" style="border-left:2px solid lightgrey;"></dd>                            
+                                        </dl>                                                                                    
+                                    </div>
+                                <!-- Documents -->
+                                    <div class="tab-pane fade" id="documents" role="tabpanel" aria-labelledby="profile-tab">                                        
+                                        <div class="row">
+                                            <!-- button to triger edit modal -->
+                                            <button type="button" class="btn btn-success btn-flat btn-xs" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-plus mr-1"></i> Add Document</button>
+                                            <!-- Modal for Immigration -->
+                                            <div class="modal fade" id="exampleModalCenter">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title">Modal title</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates explicabo natus nobis, aperiam placeat aliquid nisi ut exercitationem dolor quisquam nam tempora voluptatem. Unde dignissimos est aliquid quidem porro dolorum ipsam suscipit animi quas, debitis ea, sunt quo distinctio doloribus eveniet dolores tempore delectus voluptatum! Possimus earum asperiores animi.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+
+                                        <div class="rowleft"> 
+                                            <!-- document table start  -->
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <!-- <h4 class="header-title">Thead info</h4> -->
+                                                        <div class="single-table">
+                                                            <div class="table-responsive">
+                                                                <table class="table text-center">
+                                                                    <thead class="text-uppercase bg-info">
+                                                                        <tr class="text-white">
+                                                                            <th scope="col">S/N</th>
+                                                                            <th scope="col">DOCUMENT TITLE</th>
+                                                                            <th scope="col">ACTIONS</th>
+                                                                            <!-- <th scope="col">price</th> -->
+                                                                            <!-- <th scope="col">action</th> -->
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <th scope="row">1</th>
+                                                                            <td>XYZ</td>
+                                                                            <td><a href=""><i class="fa fa-download mr-1 fa-lg" ></i></a>
+                                                                                 <a href=""><i class="fa fa-edit mr-1 fa-lg" ></i></a>
+                                                                                 <a href=""><i class="ti-trash fa-lg"></i></a>
+                                                                            </td>                                                                            
+                                                                        </tr>                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- document table end -->
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    <!-- left align tab end -->
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+{% endblock %}

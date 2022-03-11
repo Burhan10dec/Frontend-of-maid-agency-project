@@ -1,72 +1,12 @@
 {% extends 'Base.html' %}
+{% load static %}
 {% block content %}
-<div class="sidebar-menu">
-    <div class="sidebar-header">
-        <div class="logo">
-            <a href="index.html"><img src="static/assets/images/icon/logo.png" alt="logo"></a>
-        </div>
-    </div>
-    <div class="main-menu">
-        <div class="menu-inner">
-            <nav>
-                <ul class="metismenu" id="menu">
-                    <li >
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>dashboard</span></a>
-                        
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-institution"></i><span>My Agency</span></a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-user"></i><span>Users</span></a>
-                        <ul class="collapse">
-                            <li><a href="#">User role</a></li>
-                            <li><a href="#">Users</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i><span>Staff</span></a>
-                        
-                    </li>
-                    <li class="active"> 
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-female"></i><span>FDWs</span></a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-users"></i><span>Employers</span></a>
-                    
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-street-view"></i><span>Agents</span></a>
-                        
-                    </li>
-                    <li><a href="#"><i class="fa fa-file-pdf-o"></i> <span>Contracts</span></a></li>
-                    <li><a href="#"><i class="fa fa-file-word-o"></i> <span>Documents</span></a></li>
-                    <li>
-                        <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i> <span>Invoices</span></a>
-                        <ul class="collapse">
-                            <li><a href="login.html">Invoices</a></li>
-                            <li><a href="login2.html">Drafts Invoice</a></li>
-                            <li><a href="login3.html">Invoice Settings</a></li>
-                            <li><a href="register.html">Invoice Items</a></li>
-                            <li><a href="register2.html">Credit Terms</a></li>
-                            <li><a href="register3.html">Invoice Terms Settings</a></li>
-                            <li><a href="register4.html">Invoice Notes Settings</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="fa fa-power-off"></i> <span>Logout</span></a></li>
-                </ul>
-            </nav>
-        </div>
-    </div> 
-</div>
-<div class="main-content">
-    <!-- header area start -->
-    
-    <!-- header area end -->
+{% include 'side_bar.html' %}
+{% include 'navbar_1.html' %}
     
 <!-- page title area start -->
 
-<div class="page-title-area">
+ <div class="page-title-area">
 <div class="row align-items-center">
     <div class="col-sm-6">
         <div class="breadcrumbs-area clearfix">
@@ -89,7 +29,7 @@
         </div>
     </div>
 </div>
-</div>
+</div> 
 <!-- page title area end -->
         <!-- Progress Table start -->
 <div class="main-content-inner">
@@ -101,7 +41,7 @@
                         <h4 class="header-title">Progress Table</h4>
                     </div>
                     <div class="col-sm-12 col-md-6"> 
-                        <a href="add_FDWs">
+                        <a href="FDWs">
                         <button style="float: right;" type="button" class="btn btn-flat btn-success btn-xs mb-3"><i class="fa fa-plus"></i> Add customer</button>
                     </a>
                     </div>
@@ -126,32 +66,32 @@
                                         <td><img src="http://dummyimage.com/68x68/000/fff"></td>
                                         <td>
                                             <ul>
-                                           <li> <small><strong>Name : </strong> <a href="https://www.housemaid.com.sg/agencypanel/maidmanagement/viewmaid/31lynd05">RinkuTest</a>&nbsp;<span class="label label-warning">Inactive</span></small></li>
-                                            <li><small><strong>Passport : </strong> </small></li>
-                                            <li><small><strong>FIN : </strong> </small></li>
-                                            <li><small><strong>Work Permit : </strong> </small> </li>
+                                           <li><strong>Name : </strong> <a href="FDWs_profile">RinkuTest</a>&nbsp;<span class="label label-warning">Inactive</span></li>
+                                            <li><strong>Passport : </strong> </li>
+                                            <li><strong>FIN : </strong> </li>
+                                            <li><strong>Work Permit : </</li>
                                         </ul>
                                         </td>
                                         <td>
                                             <ul>
-                                            <li><small><strong>SG Contact : </strong> </small></li>
-                                            <li><small><strong>Email : </strong> </small></li>
-                                            <li><small><strong>Overseas Primary : </strong> </small></li>
-                                            <li><small><strong>Overseas Secondary : </strong> </small></li>
+                                            <li><strong>SG Contact : </strong> </li>
+                                            <li><strong>Email : </strong> </li>
+                                            <li><strong>Overseas Primary : </strong> </li>
+                                            <li><strong>Overseas Secondary : </strong> </li>
                                         </ul>
                                         </td>
                                         <td>
                                             <ul>
-                                                <li><small><strong>Nationality : </strong> </small></li>
-                                                <li><small><strong>Marital Status : </strong> </small></li>
-                                                <li><small><strong>Religion : </strong> </small></li>
+                                                <li><strong>Nationality : </strong> </li>
+                                                <li><strong>Marital Status : </strong> </li>
+                                                <li><strong>Religion : </strong> </li>
                                             </ul>
                                         </td>
                                         <td>
                                             <ul class="d-flex">
-                                                <li class="mr-3"><a href="#" class="text-success"><i class="fa fa-check-circle "></i></a></li>
-                                                <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                <a href="#" ><i class="fa fa-check-circle fa-lg mr-1 "></i></a>
+                                                <a href="#" ><i class="fa fa-edit fa-lg mr-1"></i></a>
+                                                <a href="#" ><i class="ti-trash fa-lg"></i></a>
                                             </ul>
                                         </td>
                                     </tr>
@@ -163,9 +103,7 @@
                     </div>
                 </div>
             </div>
-        </div>  <!-- container div end -->
-    </div>
-    <!-- Progress Table end -->      
-</div>
+</div>  <!-- container div end -->
+    
 
 {% endblock %}
